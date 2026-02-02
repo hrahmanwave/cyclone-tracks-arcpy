@@ -2,7 +2,7 @@ import arcpy, os
 
 arcpy.env.overwriteOutput = True
 
-in_csv = r"input_Directory"
+in_csv = r"C:\Users\USER\Downloads\FH_cyclone_tracks_1982_2026_updated.csv"
 out_folder = r"C:\Users\USER\Documents\ArcGIS"
 gdb_name = "CycloneTracks.gdb"
 
@@ -83,4 +83,5 @@ sort_for_lines = time_field if time_field in fields2 else "Seq"
 arcpy.PointsToLine_management(pts_sorted, lines, line_field, sort_for_lines)
 
 print("DONE ✅ Output lines:", lines)
+
 print("StormIDs with >=2 points:", len(stormids_2plus))
