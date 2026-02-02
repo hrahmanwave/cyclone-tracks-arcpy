@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Cyclone track generation using ArcPy"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Rahman"
+    given-names: "Hasanur"
+repository-code: "https://github.com/hrahmanwave/cyclone-tracks-arcpy"
+url: "https://github.com/hrahmanwave/cyclone-tracks-arcpy"
+version: "1.0.0"
+date-released: 2026-02-01
+license: MIT
+keywords:
+  - ArcPy
+  - ArcGIS
+  - cyclone
+  - tropical cyclone
+  - GIS
+  - storm tracks
