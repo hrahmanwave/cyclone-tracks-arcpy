@@ -1,0 +1,24 @@
+# ArcGIS / ArcPy
+*.gdb
+*.gdb/*
+*.lock
+*.log
+
+# GIS outputs
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Data files
+*.csv
+*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
