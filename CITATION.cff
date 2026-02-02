@@ -4,7 +4,7 @@ message: "If you use this software, please cite it as below."
 type: software
 authors:
   - family-names: "Rahman"
-    given-names: "Hasanur"
+    given-names: "Md Hasanur"
 repository-code: "https://github.com/hrahmanwave/cyclone-tracks-arcpy"
 url: "https://github.com/hrahmanwave/cyclone-tracks-arcpy"
 version: "1.0.0"
@@ -17,3 +17,4 @@ keywords:
   - tropical cyclone
   - GIS
   - storm tracks
+
